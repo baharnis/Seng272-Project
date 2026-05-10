@@ -4,8 +4,7 @@ An interactive desktop simulator based on the ISO/IEC 15939 standard. Built with
 Name: Bahar Nisa Tuğrul
 ID: 202328056
 
-How to Compile & Run
-This project runs on standard Java SE with no external dependencies.
+Compile & Run: This project runs on standard Java SE with no external dependencies.
 
 Compile: javac src/*.java -d out
 Run: java -cp out Main
