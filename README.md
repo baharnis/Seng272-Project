@@ -2,11 +2,13 @@
 An interactive desktop simulator based on the ISO/IEC 15939 standard. Built with Java Swing, it features a 5-step wizard and a custom Java 2D radar chart for software quality analysis.
 
 Name: Bahar Nisa Tuğrul
+
 ID: 202328056
 
 Compile & Run: This project runs on standard Java SE with no external dependencies.
 
 Compile: javac src/*.java -d out
+
 Run: java -cp out Main
 
 Step 1: Profile Screen
