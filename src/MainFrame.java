@@ -9,7 +9,7 @@ public class MainFrame extends JFrame {
     private final String[] stepNames = {"Profile", "Define", "Plan", "Collect", "Analyse"};
 
     public MainFrame(MeasurementController controller) {
-        setTitle("ISO 15939 Software Metric Analyzer");
+        setTitle("ISO 15939 Measurement Process Simulator");
         setSize(800, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
