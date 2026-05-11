@@ -1,9 +1,10 @@
 # SENG 272 - Software Measurement Simulator
-An interactive desktop simulator based on the ISO/IEC 15939 standard. Built with Java Swing, it features a 5-step wizard and a custom Java 2D radar chart for software quality analysis.
 
 Name: Bahar Nisa Tuğrul
 
 ID: 202328056
+
+An interactive desktop simulator based on the ISO/IEC 15939 standard. Built with Java Swing, it features a 5-step wizard and a custom Java 2D radar chart for software quality analysis.
 
 Compile & Run: This project runs on standard Java SE with no external dependencies.
 
@@ -11,17 +12,14 @@ Compile: javac src/*.java -d out
 
 Run: java -cp out Main
 
-Step 1: Profile Screen
-![Step 1](step1_profile.png)
+5-Step Measurement Process
 
-Step 2: Define Screen
-![Step 2](step2_define.png)
+Step 1: Profile — User authentication and metadata initialization (Name, School, Session).
 
-Step 3: Plan Screen
-![Step 3](step3_plan.png)
+Step 2: Define — Scope selection (Product/Process Quality) and operational mode (Education/Enterprise).
 
-Step 4: Collect Screen
-![Step 4](step4_collect.png)
+Step 3: Plan — Mapping dimensions to metrics, including target directions and units.
 
-Step 5: Analyse Screen (Radar Chart)
-![Step 5](step5_analyse.png)
+Step 4: Collect — Loading and entering realistic default datasets tailored to the active mode.
+
+Step 5: Analyse — Dynamic Java 2D Radar Chart and Gap Analysis utilizing S/D scenario boundaries and 0.5 interval rounding.
