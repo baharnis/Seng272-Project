@@ -20,16 +20,16 @@ Step 1: Profile — User authentication and metadata initialization (Name, Schoo
 
 Step 2: Define — Scope selection (Product/Process Quality) and operational mode (Education/Enterprise).
   
-  ![Step 2: Define](screenshot/step2_define.png)
+  ![Step 2: Define](step2_define.png)
 
 Step 3: Plan — Mapping dimensions to metrics, including target directions and units.
   
-  ![Step 3: Plan](screenshot/step3_plan.png)
+  ![Step 3: Plan](step3_plan.png)
 
 Step 4: Collect — Loading and entering realistic default datasets tailored to the active mode.
   
-  ![Step 4: Collect](screenshot/step4_collect.png)
+  ![Step 4: Collect](step4_collect.png)
 
 Step 5: Analyse — Dynamic Java 2D Radar Chart and Gap Analysis utilizing S/D scenario boundaries and 0.5 interval rounding.
   
-  ![Step 5: Analyse](screenshot/step5_analyse.png)
+  ![Step 5: Analyse](step5_analyse.png)
