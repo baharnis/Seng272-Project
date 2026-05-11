@@ -10,10 +10,21 @@ public class Dimension {
         this.coefficient = coefficient;
     }
 
-    public void addMetric(Metric m) { metrics.add(m); }
-    public List<Metric> getMetrics() { return metrics; }
-    public String getName() { return name; }
-    public int getCoefficient() { return coefficient; }
+    public void addMetric(Metric m) {
+        metrics.add(m);
+    }
+
+    public List<Metric> getMetrics() {
+        return metrics;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCoefficient() {
+        return coefficient;
+    }
 
     public double calculateScore() {
         double totalWeightedScore = 0;

@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b8a053b-c3d1-4c44-8758-a94cc78f1fef" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/AnalysePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DefinePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlanPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProfilePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="6b8a053b-c3d1-4c44-8758-a94cc78f1fef" name="Changes" comment="Implementation V3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnalysePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalysePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DefinePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DefinePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dimension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MeasurementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MeasurementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Metric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Metric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlanPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlanPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +29,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "baharnis"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;baharnis&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/baharnis/Software-Measurement-Simulator-",
-    "accountId": "7c294d8f-446d-4e1b-ad97-c52f7b932684"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/baharnis/Software-Measurement-Simulator-&quot;,
+    &quot;accountId&quot;: &quot;7c294d8f-446d-4e1b-ad97-c52f7b932684&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3Cj50pv9NvSwPI52S9Kf25iOC4r" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,9 +56,16 @@
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -80,11 +82,58 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1776885919910</updated>
+      <workItem from="1778443222826" duration="3034000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1776887015815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776887015815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implementation V2">
+      <option name="closed" value="true" />
+      <created>1776887288027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776887288027</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implementation V2">
+      <option name="closed" value="true" />
+      <created>1776887625152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776887625152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementation V2">
+      <option name="closed" value="true" />
+      <created>1776887948194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776887948194</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implementation V3">
+      <option name="closed" value="true" />
+      <created>1777321348802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777321348802</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Implementation V2" />
+    <MESSAGE value="Implementation V3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation V3" />
   </component>
 </project>
