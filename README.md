@@ -16,7 +16,7 @@ Run: java -cp out Main
 
 Step 1: Profile — User authentication and metadata initialization (Name, School, Session).
   
-  ![Step 1: Profile](screenshot/step1_profile.png)
+  ![Step 1: Profile](step1_profile.png)
 
 Step 2: Define — Scope selection (Product/Process Quality) and operational mode (Education/Enterprise).
   
